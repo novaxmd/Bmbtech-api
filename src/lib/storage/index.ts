@@ -3,10 +3,10 @@
  * ==============
  * 4 Storage Keys:
  *
- * 1. downaria_settings - All user preferences
- * 2. downaria_cookies - All platform cookies (encrypted)
- * 3. downaria_seasonal - Seasonal effects
- * 4. downaria_queue - Pending downloads queue
+ * 1. Bmbtech_settings - All user preferences
+ * 2. Bmbtech_cookies - All platform cookies (encrypted)
+ * 3. Bmbtech_seasonal - Seasonal effects
+ * 4. Bmbtech_queue - Pending downloads queue
  */
 
 // ═══════════════════════════════════════════════════════════════
@@ -96,7 +96,7 @@ export {
   saveDiscordSettings,
   getUserDiscordSettings,
   saveUserDiscordSettings,
-  type DownAriaSettings,
+  type BmbtechSettings,
   type DiscordSettings,
   type ThemeType,
   type ResolvedTheme,
