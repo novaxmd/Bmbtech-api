@@ -8,7 +8,7 @@
  * It's obfuscation to prevent casual snooping. For true security,
  * use password-based encryption on export/import.
  * 
- * Storage Key: downaria_cookies
+ * Storage Key: Bmbtech_cookies
  */
 
 import { STORAGE_KEYS } from './settings';
@@ -61,7 +61,7 @@ function xorDecipher(hex: string, key: string): string {
 // ENCRYPTION KEY (App-level, not fingerprint-based for portability)
 // ═══════════════════════════════════════════════════════════════
 
-const APP_KEY = 'DownAria2025!@#$';
+const APP_KEY = 'Bmbtech2026!@#$';
 
 function computeHMAC(data: string, key: string): string {
   return simpleHash(key + data + key);
