@@ -7,11 +7,11 @@ import { type Locale, defaultLocale } from '@/i18n/config';
 
 // Import messages statically
 import enMessages from '@/i18n/messages/en.json';
-import idMessages from '@/i18n/messages/id.json';
+import swMessages from '@/i18n/messages/sw.json';
 
 const messages: Record<Locale, AbstractIntlMessages> = {
   en: enMessages,
-  id: idMessages,
+  sw: swMessages,
 };
 
 interface IntlProviderProps {
@@ -48,7 +48,7 @@ export function IntlProvider({ children }: IntlProviderProps) {
     <NextIntlClientProvider 
       locale={currentLocale} 
       messages={currentMessages}
-      timeZone="Asia/Jakarta"
+      timeZone="Tanzania/Dodoma"
     >
       {children}
     </NextIntlClientProvider>
@@ -70,4 +70,5 @@ export function useLocaleRefresh() {
   };
 
   return refresh;
-}
+            }
+    
