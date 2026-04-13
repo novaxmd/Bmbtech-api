@@ -3,11 +3,11 @@
  * ========================================
  * 5 Storage Keys:
  * 
- * 1. downaria_settings - All user preferences
- * 2. downaria_cookies - All platform cookies (encrypted)
- * 3. downaria_seasonal - Seasonal effects
- * 4. downaria_queue - Pending downloads queue
- * 5. downaria_ai - AI chat sessions
+ * 1. Bmbtech_settings - All user preferences
+ * 2. Bmbtech_cookies - All platform cookies (encrypted)
+ * 3. Bmbtech_seasonal - Seasonal effects
+ * 4. Bmbtech_queue - Pending downloads queue
+ * 5. Bmbtech_ai - AI chat sessions
  */
 
 import { type Locale, locales, defaultLocale } from '@/i18n/config';
@@ -17,11 +17,11 @@ import { type Locale, locales, defaultLocale } from '@/i18n/config';
 // ═══════════════════════════════════════════════════════════════
 
 export const STORAGE_KEYS = {
-  SETTINGS: 'downaria_settings',
-  COOKIES: 'downaria_cookies',
-  SEASONAL: 'downaria_seasonal',
-  QUEUE: 'downaria_queue',
-  EXPERIMENTAL_AUDIO: 'downaria_experimental_audio',
+  SETTINGS: 'Bmbtech_settings',
+  COOKIES: 'Bmbtech_cookies',
+  SEASONAL: 'Bmbtech_seasonal',
+  QUEUE: 'Bmbtech_queue',
+  EXPERIMENTAL_AUDIO: 'Bmbtech_experimental_audio',
 } as const;
 
 // ═══════════════════════════════════════════════════════════════
@@ -47,7 +47,7 @@ export interface DiscordSettings {
   batchDelay: number;
 }
 
-export interface DownAriaSettings {
+export interface BmbtechSettings {
   // Theme & Display
   theme: ThemeType;
   accentColor: AccentColorType;
@@ -94,7 +94,7 @@ export const DEFAULT_DISCORD: DiscordSettings = {
   autoSend: false,
   embedEnabled: true,
   embedColor: '#f3d61b',
-  footerText: 'via DownAria',
+  footerText: 'via Bmbtech',
   sendMethod: 'double',
   mention: '',
   sendAllOnBatch: false,
@@ -114,7 +114,7 @@ export const ACCENT_COLOR_PRESETS: Record<AccentColorType, AccentPreset> = {
     default: { primary: '#e85d4a', secondary: '#f97316' },
   },
   blue: {
-    label: 'Old DownAria',
+    label: 'Old Bmbtech',
     default: { primary: '#6366f1', secondary: '#8b5cf6' },
     byTheme: {
       light: { primary: '#6366f1', secondary: '#8b5cf6' },
@@ -132,7 +132,7 @@ export const ACCENT_COLOR_PRESETS: Record<AccentColorType, AccentPreset> = {
   },
 };
 
-const DEFAULT_SETTINGS: DownAriaSettings = {
+const DEFAULT_SETTINGS: BmbtechSettings = {
   theme: 'auto',
   accentColor: 'coral',
   language: 'auto',
@@ -159,7 +159,7 @@ const DEFAULT_SETTINGS: DownAriaSettings = {
 // UNIFIED SETTINGS
 // ═══════════════════════════════════════════════════════════════
 
-export function getUnifiedSettings(): DownAriaSettings {
+export function getUnifiedSettings(): BmbtechSettings {
   if (typeof window === 'undefined') return DEFAULT_SETTINGS;
   try {
     const saved = localStorage.getItem(STORAGE_KEYS.SETTINGS);
@@ -169,7 +169,7 @@ export function getUnifiedSettings(): DownAriaSettings {
   }
 }
 
-export function saveUnifiedSettings(settings: Partial<DownAriaSettings>): void {
+export function saveUnifiedSettings(settings: Partial<BmbtechSettings>): void {
   if (typeof window === 'undefined') return;
   const updated = { ...getUnifiedSettings(), ...settings };
   localStorage.setItem(STORAGE_KEYS.SETTINGS, JSON.stringify(updated));
@@ -363,7 +363,7 @@ export function setUpdateDismissed(status: 'forever' | 'session' | null): void {
 
 import { setEncrypted, getEncrypted, removeEncrypted } from './crypto';
 
-const DISCORD_WEBHOOK_KEY = 'downaria_discord_webhook';
+const DISCORD_WEBHOOK_KEY = 'Bmbtech_discord_webhook';
 
 export function getDiscordSettings(): DiscordSettings | null {
   if (typeof window === 'undefined') return null;
