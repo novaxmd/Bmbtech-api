@@ -91,7 +91,7 @@ const MAX_CACHE_ENTRIES = 200;
 const CLEANUP_PROBABILITY = 0.1;
 
 /** Stats storage key */
-const STATS_KEY = 'downaria_cache_stats';
+const STATS_KEY = 'Bmbtech_cache_stats';
 
 // ═══════════════════════════════════════════════════════════════
 // DATABASE SETUP
