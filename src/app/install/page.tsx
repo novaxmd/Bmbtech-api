@@ -446,4 +446,91 @@ function InstallInstructions({
                             onClick={onClose}
                             className="p-2 rounded-lg hover:bg-[var(--bg-secondary)] transition-colors"
                         >
-                
+                            <X className="w-5 h-5" />
+                        </button>
+                    </div>
+                </div>
+
+                {/* Steps */}
+                <div className="p-6 space-y-4">
+                    {instructions.steps.map((step, idx) => (
+                        <motion.div
+                            key={idx}
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: idx * 0.1 }}
+                            className="flex items-center gap-4"
+                        >
+                            <div className="w-10 h-10 rounded-full bg-[var(--accent-primary)] flex items-center justify-center text-white font-bold shrink-0">
+                                {idx + 1}
+                            </div>
+                            <div className="flex items-center gap-3 flex-1">
+                                <step.icon className="w-5 h-5 text-[var(--text-muted)] shrink-0" />
+                                <span className="text-sm">{step.text}</span>
+                            </div>
+                        </motion.div>
+                    ))}
+                </div>
+
+                {/* Note */}
+                <div className="px-6 pb-6">
+                    <div className="p-3 rounded-lg bg-[var(--accent-primary)]/10 border border-[var(--accent-primary)]/20">
+                        <p className="text-xs text-[var(--text-muted)]">
+                            💡 {instructions.note}
+                        </p>
+                    </div>
+                </div>
+
+                {/* Visual Guide for iOS */}
+                {platform === 'ios' && (
+                    <div className="px-6 pb-6">
+                        <div className="flex items-center justify-center gap-4 p-4 rounded-xl bg-[var(--bg-secondary)]">
+                            <motion.div
+                                animate={{ y: [0, -5, 0] }}
+                                transition={{ duration: 1.5, repeat: Infinity }}
+                                className="flex flex-col items-center"
+                            >
+                                <div className="w-10 h-10 rounded-lg bg-blue-500 flex items-center justify-center mb-1">
+                                    <Share className="w-5 h-5 text-white" />
+                                </div>
+                                <span className="text-[10px] text-[var(--text-muted)]">Share</span>
+                            </motion.div>
+                            <ArrowRight className="w-4 h-4 text-[var(--text-muted)]" />
+                            <motion.div
+                                animate={{ y: [0, -5, 0] }}
+                                transition={{ duration: 1.5, repeat: Infinity, delay: 0.3 }}
+                                className="flex flex-col items-center"
+                            >
+                                <div className="w-10 h-10 rounded-lg bg-gray-600 flex items-center justify-center mb-1">
+                                    <Plus className="w-5 h-5 text-white" />
+                                </div>
+                                <span className="text-[10px] text-[var(--text-muted)]">Add</span>
+                            </motion.div>
+                            <ArrowRight className="w-4 h-4 text-[var(--text-muted)]" />
+                            <motion.div
+                                animate={{ y: [0, -5, 0] }}
+                                transition={{ duration: 1.5, repeat: Infinity, delay: 0.6 }}
+                                className="flex flex-col items-center"
+                            >
+                                <div className="w-10 h-10 rounded-lg bg-green-500 flex items-center justify-center mb-1">
+                                    <CheckCircle className="w-5 h-5 text-white" />
+                                </div>
+                                <span className="text-[10px] text-[var(--text-muted)]">Done!</span>
+                            </motion.div>
+                        </div>
+                    </div>
+                )}
+
+                {/* Close Button */}
+                <div className="p-6 pt-0">
+                    <button
+                        onClick={onClose}
+                        className="w-full py-3 rounded-xl bg-[var(--bg-secondary)] hover:bg-[var(--bg-card)] transition-colors font-medium"
+                    >
+                        {t('gotIt')}
+                    </button>
+                </div>
+            </motion.div>
+        </motion.div>
+    );
+}
