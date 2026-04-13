@@ -1,0 +1,1133 @@
+{
+  "common": {
+    "loading": "Inapakia...",
+    "error": "Hitilafu",
+    "success": "Imefaulu",
+    "cancel": "Ghairi",
+    "save": "Hifadhi",
+    "delete": "Futa",
+    "confirm": "Thibitisha",
+    "close": "Funga",
+    "back": "Rudi",
+    "next": "Endelea",
+    "clear": "Futa",
+    "clearAll": "Futa Zote",
+    "export": "Hamisha",
+    "import": "Ingiza",
+    "enable": "Washa",
+    "disable": "Zima",
+    "edit": "Hariri",
+    "add": "Ongeza",
+    "remove": "Ondoa",
+    "refresh": "Boresha",
+    "retry": "Jaribu Tena",
+    "ok": "Sawa",
+    "yes": "Ndiyo",
+    "no": "Hapana"
+  },
+
+  "nav": {
+    "home": "Mwanzo",
+    "history": "Historia",
+    "advanced": "Kina",
+    "docs": "Nyaraka",
+    "settings": "Mipangilio",
+    "about": "Kuhusu",
+    "navigation": "Urambazaji",
+    "supportedPlatforms": "Mifumo Inayotumika"
+  },
+
+  "home": {
+    "titlePrefix": "Pakua",
+    "titleSuffix": "Bure",
+    "platforms": {
+      "socialMedia": "Mitandao ya Kijamii",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "twitter": "Twitter",
+      "weibo": "Weibo",
+      "pixiv": "Pixiv",
+      "youtube": "YouTube"
+    },
+    "subtitle": "Kipakua mitandao ya kijamii bila malipo kwa karibu viungo vyote vya umma. Inatumia risunCode Native Extractor na programu-jalizi ya yt-dlp.",
+    "badges": {
+      "noWatermark": "Bila Alama ya Maji",
+      "fastFree": "Haraka na Bure",
+      "multiQuality": "Ubora Mbalimbali",
+      "noLogin": "Bila Kuingia"
+    }
+  },
+
+  "download": {
+    "pasteUrl": "Bandika URL ya video...",
+    "paste": "Bandika",
+    "pasted": "Imekamilika",
+    "go": "Nenda",
+    "downloadingFrom": "Inapakua kutoka",
+    "processingLink": "Inachakata Kiungo",
+    "progress": {
+      "starting": "Inaanza...",
+      "connecting": "Inaunganisha...",
+      "fetching": "Inachukua ukurasa...",
+      "extracting": "Inachakata Kiungo",
+      "validating": "Inathibitisha URL...",
+      "almostDone": "Karibu kukamilika...",
+      "done": "Imekamilika!"
+    },
+    "tips": {
+      "tip1": "Bandika URL ya video kuanza",
+      "tip2": "Inasaidia TikTok, Instagram, Facebook na nyingine",
+      "tip3": "Utambuzi wa mfumo kiotomatiki kutoka URL",
+      "tip4": "Pakua kwa ubora mbalimbali",
+      "tip5": "Bila alama ya maji kwenye mifumo mingi",
+      "tip6": "Inafanya kazi kwa Reels, Stories na Machapisho"
+    },
+    "preview": {
+      "download": "Pakua",
+      "downloadSelected": "Pakua vilivyochaguliwa",
+      "downloadAll": "Pakua Zote",
+      "downloadAllOption": "Pakua zote",
+      "downloadZip": "Pakua ZIP",
+      "downloadingAll": "Inapakua Zote...",
+      "downloading": "Inapakua...",
+      "downloaded": "Imepakuliwa",
+      "done": "✓ Imekamilika",
+      "quality": "Ubora",
+      "size": "Ukubwa",
+      "duration": "Muda",
+      "noPreview": "Hakuna muhtasari unaopatikana",
+      "audio": "Sauti",
+      "video": "Video",
+      "image": "Picha",
+      "items": "vitu",
+      "descriptionTitle": "Maelezo",
+      "withCookie": "🔒 Binafsi",
+      "guest": "🌐 Umma",
+      "sent": "Imetumwa",
+      "discord": "Discord"
+    }
+  },
+
+  "history": {
+    "title": "Historia ya Upakuaji",
+    "subtitle": "Angalia na udhibiti upakuaji uliopita",
+    "empty": "Hakuna upakuaji bado",
+    "emptyDesc": "Historia ya upakuaji itaonekana hapa",
+    "clearHistory": "Futa Historia",
+    "clearConfirm": "Futa historia yote?",
+    "clearConfirmDesc": "Hii itafuta historia yote ya upakuaji. Kitendo hiki hakiwezi kutenduliwa.",
+    "privacy": {
+      "title": "Faragha yako ni muhimu.",
+      "description": "Historia ya upakuaji inahifadhiwa kwenye kifaa chako pekee. Hatukusanyi, kufuatilia, au kutuma data yako popote.",
+      "storage": "Inahifadhiwa kwenye hifadhi ya kivinjari"
+    },
+    "item": {
+      "downloaded": "Imepakuliwa",
+      "redownload": "Pakua tena",
+      "copyUrl": "Nakili URL",
+      "delete": "Futa"
+    }
+  },
+
+  "settings": {
+    "title": "Mipangilio",
+    "subtitle": "Ratibu matumizi yako ya Bmbtech kwa udhibiti wa mandhari na lugha, vidakuzi vya mfumo, zana za chelezo na hifadhi, na mipangilio ya ujumuishaji wa Discord.",
+    "tabs": {
+      "basic": "Msingi",
+      "cookies": "Vidakuzi",
+      "storage": "Hifadhi",
+      "integrations": "Ujumuishaji"
+    },
+    "theme": {
+      "title": "Mandhari",
+      "auto": "Kiotomatiki",
+      "autoDesc": "Kulingana na wakati",
+      "dark": "Nyeusi",
+      "darkDesc": "Raha kwa macho",
+      "light": "Nyepesi",
+      "lightDesc": "Kawaida angavu",
+      "solarized": "Jua",
+      "solarizedDesc": "Toni za joto"
+    },
+    "language": {
+      "title": "Lugha",
+      "auto": "Tambua kiotomatiki",
+      "autoDesc": "Tumia lugha ya kivinjari"
+    },
+    "notifications": {
+      "title": "Arifa",
+      "push": "Arifa za Kusukuma",
+      "notSupported": "Haitumiki",
+      "blocked": "Imezuiwa na kivinjari",
+      "enabled": "Inapokea sasisho",
+      "disabled": "Washa arifa"
+    },
+    "discord": {
+      "title": "Nduio ya Discord",
+      "description": "Pata arifa za upakuaji kwenye seva yako ya Discord",
+      "configure": "Sanidi"
+    },
+    "pwa": {
+      "title": "Sakinisha Programu",
+      "installed": "Imesakinishwa ✓",
+      "notInstalled": "Haijasakinishwa",
+      "androidTip": "Bora kwenye Android",
+      "androidDesc": "Tumia kivinjari cha Chrome kwa matumizi bora. Gonga menyu (⋮) → \"Ongeza kwenye Skrini ya Kwanza\" au \"Sakinisha programu\".",
+      "manualInstall": "Sakinisha Kwa Mikono"
+    },
+    "features": {
+      "title": "Programu na Vipengele"
+    },
+    "cookies": {
+      "title": "Vidakuzi vya Mfumo",
+      "priority": "Kipaumbele: Kidakuzi Chako → Kidakuzi cha Msimamizi → Hali ya Mgeni",
+      "adminNote": "Vidakuzi vya msimamizi vimesanidiwa kwa mifumo mingi.",
+      "yours": "Chako",
+      "admin": "Msimamizi",
+      "guest": "Mgeni",
+      "howToGet": "Jinsi ya kupata kidakuzi",
+      "howToGetDesc": "Sakinisha kiendelezi cha Cookie Editor → Fungua mfumo → Bofya kiendelezi → Hamisha kama Kamba ya Kichwa",
+      "warning": "Tahadhari",
+      "warningDesc": "Kutumia vidakuzi kunaweza kukiuka Masharti ya Huduma ya mfumo. Hatari ni pamoja na kuzuiwa kwa muda hadi kuzuiwa kabisa.",
+      "invalidFormat": "Muundo si sahihi",
+      "saved": "Imehifadhiwa!",
+      "cleared": "Kidakuzi Kimefutwa",
+      "clearAll": "Futa Zote"
+    },
+    "storage": {
+      "title": "Data na Hifadhi",
+      "skipCache": "Ruka Akiba",
+      "skipCacheDesc": "Pitisha akiba ya Redis kwa matokeo ya hivi karibuni",
+      "backup": {
+        "title": "Chelezo Kamili",
+        "description": "Hamisha kama ZIP iliyo na history.json + settings.json. Kuingiza kutachanganya data.",
+        "historyItems": "{count} historia + mipangilio",
+        "exportSuccess": "Chelezo Imeundwa!",
+        "exportSuccessDesc": "Historia + Mipangilio imehamishwa kama ZIP.",
+        "exportFailed": "Uhamishaji Umefeli",
+        "restoreConfirm": "Rejesha Chelezo?",
+        "restoreConfirmDesc": "Hii itarejesha historia na mipangilio. Nakala rudufu zitarukwa.",
+        "restore": "Rejesha",
+        "restored": "Imerejeshwa!",
+        "restoredDesc": "{history} vitu vya historia, {settings} mipangilio",
+        "duplicatesSkipped": "{count} nakala rudufu zimerukwa",
+        "restoreFailed": "Urejeshaji Umefeli",
+        "invalidFile": "Chagua faili ya chelezo .zip."
+      },
+      "items": {
+        "cookies": "Vidakuzi",
+        "cookiesDesc": "Uthibitishaji wa mfumo",
+        "localStorage": "Hifadhi ya Ndugu",
+        "localStorageDesc": "Mandhari na mipangilio",
+        "historyCache": "Historia na Akiba",
+        "historyCacheDesc": "Data ya akiba",
+        "resetAll": "Weka Upya Zote",
+        "resetAllDesc": "Rejesha kiwandani"
+      },
+      "clear": {
+        "cookies": "Futa vidakuzi vyote?",
+        "cookiesDesc": "Hii itafuta vidakuzi vyote vya mfumo vilivyohifadhiwa.",
+        "localStorage": "Futa Hifadhi ya Ndugu?",
+        "localStorageDesc": "Hii itafuta mandhari na mipangilio.",
+        "historyCache": "Futa Historia na Akiba?",
+        "historyCacheDesc": "Hii itafuta historia yote ya upakuaji na matokeo ya akiba.",
+        "all": "Weka Upya Zote?",
+        "allDesc": "Vidakuzi vyote, mipangilio, na akiba vitafuliwa.",
+        "resetAllBtn": "Weka Upya Zote"
+      },
+      "info": {
+        "localStorage": "Hifadhi ya Ndugu",
+        "indexedDB": "IndexedDB",
+        "total": "Kadirio la Jumla"
+      }
+    },
+    "integrations": {
+      "title": "Ujumuishaji",
+      "comingSoon": "Ujumuishaji mwingine unakuja hivi karibuni..."
+    }
+  },
+
+  "settingsPage": {
+    "badge": "Mapendeleo",
+    "tabs": {
+      "basic": {
+        "title": "Mipangilio ya Jumla"
+      },
+      "cookies": {
+        "title": "Usimamizi wa Vidakuzi"
+      },
+      "storage": {
+        "title": "Hifadhi na Data"
+      },
+      "integrations": {
+        "title": "Ujumuishaji"
+      }
+    },
+    "alerts": {
+      "installSuccess": {
+        "title": "Imesakinishwa!",
+        "text": "Programu imeongezwa kwenye skrini ya kwanza"
+      },
+      "cookies": {
+        "noValidCookies": "Hakuna vidakuzi halali vilivyopatikana",
+        "invalidCookieFormat": "Muundo wa kidakuzi si sahihi"
+      },
+      "unknownError": "Hitilafu isiyojulikana",
+      "cleared": "Imefutwa kwa mafanikio",
+      "scraperCacheClear": {
+        "title": "Futa Akiba ya Kichakuzi?",
+        "text": "Hii itafuta matokeo ya kichakuzi yaliyohifadhiwa. Maombi yanayofuata yatachukua data mpya.",
+        "success": "Akiba ya Kichakuzi Imefutwa"
+      },
+      "indexedDbClear": {
+        "title": "Futa IndexedDB?",
+        "text": "Hii itafuta data zote za IndexedDB ikiwa pamoja na historia na akiba.",
+        "warning": "Kitendo hiki hakiwezi kutenduliwa!",
+        "confirm": "Futa Zote",
+        "success": "IndexedDB Imefutwa"
+      },
+      "seasonalClear": {
+        "title": "Futa Athari za Msimu?",
+        "text": "Hii itafuta mandhari maalum na kuweka upya mipangilio ya msimu.",
+        "success": "Athari za Msimu Zimefutwa"
+      },
+      "experimentalReset": {
+        "title": "Weka Upya Thamani za Majaribio?",
+        "text": "Hii itaweka upya athari za msimu, mandhari maalum, na vibonye vya majaribio kwa chaguo-msingi.",
+        "confirm": "Weka Upya",
+        "success": "Thamani za Majaribio Zimewekwa Upya",
+        "failed": "Kuweka Upya Kumefeli"
+      },
+      "allDataCleared": "Data Zote Zimefutwa"
+    },
+    "backup": {
+      "invalidFileTitle": "Faili Si Sahihi",
+      "fileLabel": "Faili",
+      "historyItemsLabel": "vitu vya historia",
+      "settingsLabel": "mipangilio",
+      "cookiesRestoredLabel": "vidakuzi vimerejeshwa",
+      "duplicatesSkippedLabel": "nakala rudufu zimerukwa",
+      "invalidBackupFile": "Faili ya chelezo si sahihi"
+    }
+  },
+
+  "settingsTabs": {
+    "basic": {
+      "language": {
+        "title": "Lugha",
+        "auto": "Kiotomatiki"
+      },
+      "theme": {
+        "title": "Mandhari",
+        "auto": "Kiotomatiki",
+        "autoTip": "Hubadilika kulingana na wakati",
+        "dark": "Nyeusi",
+        "darkTip": "Raha kwa macho",
+        "light": "Nyepesi",
+        "lightTip": "Kawaida angavu",
+        "solarized": "Jua",
+        "solarizedTip": "Toni za joto"
+      },
+      "accentColor": {
+        "title": "Rangi ya Mkazo",
+        "description": "Chagua rangi ya mkazo kwa vitufe na vivutio"
+      },
+      "accentColors": {
+        "coral": "Rangi Mpya (Matumbawe)",
+        "blue": "Bmbtech ya Zamani",
+        "emerald": "Zumrud",
+        "amber": "Kaharaba"
+      },
+      "active": "Inatumika",
+      "experimental": {
+        "title": "Majaribio",
+        "description": "Vipengele vya beta - vinaweza kubadilika au kuondolewa",
+        "resetAllValues": "Weka Upya Thamani Zote"
+      }
+    },
+    "cookies": {
+      "security": {
+        "title": "Taarifa ya Usalama na Faragha",
+        "description": "Vidakuzi vinahifadhiwa kwenye kifaa chako na kutumwa kwa usalama (kwa siri) kwa seva kwa usindikaji wa media pekee. Vidakuzi vyako vya binafsi hupewa kipaumbele kuliko vidakuzi vya seva iliyoshirikiwa. Kutumia vidakuzi kufikia maudhui ya kibinafsi kunaweza kukiuka Masharti ya Huduma ya mfumo. Tumia kwa hatari yako mwenyewe."
+      },
+      "platformCookies": {
+        "title": "Vidakuzi vya Mfumo",
+        "configured": "<active></active> kati ya {total} vimesanidiwa",
+        "none": "Hakuna kidakuzi kilichosanidiwa bado"
+      },
+      "actions": {
+        "clearAll": "Futa Zote",
+        "clearCookie": "Futa kidakuzi",
+        "close": "Funga",
+        "edit": "Hariri",
+        "addCookie": "Ongeza Kidakuzi",
+        "cancel": "Ghairi",
+        "save": "Hifadhi"
+      },
+      "status": {
+        "active": "Inatumika",
+        "inactive": "Haijatumika"
+      },
+      "platformDescriptions": {
+        "facebook": "Stori na vikundi vya kibinafsi",
+        "instagram": "Machapisho na stori za kibinafsi",
+        "twitter": "Maudhui yenye kikomo cha umri",
+        "youtube": "Video zinazohitaji kuingia/kikomo cha umri"
+      },
+      "editor": {
+        "placeholder": "Bandika mfuatano wa kidakuzi (muundo wa JSON, Netscape, au Kichwa)...",
+        "encryptedHint": "Imehifadhiwa kwa siri kwenye kifaa chako"
+      },
+      "guide": {
+        "title": "Jinsi ya kupata kidakuzi",
+        "subtitle": "Mwongozo hatua kwa hatua",
+        "step1": "Ingia kwenye mfumo kwenye kivinjari chako",
+        "step2": "Fungua DevTools (F12) -> Application -> Cookies",
+        "step3": "Nakili thamani zote za kidakuzi, au tumia kiendelezi cha kuhamisha kidakuzi",
+        "supportsPrefix": "Inasaidia muundo",
+        "and": "na",
+        "supportsSuffix": ""
+      }
+    },
+    "storage": {
+      "title": "Data na Hifadhi",
+      "skipCache": {
+        "title": "Ruka Akiba",
+        "description": "Chukua matokeo ya hivi karibuni kila wakati (ruka akiba ya ndani)"
+      },
+      "backup": {
+        "title": "Chelezo Kamili",
+        "historyAndSettings": "{count} historia + mipangilio",
+        "export": "Hamisha",
+        "import": "Ingiza",
+        "description": "Chelezo ina historia + mipangilio na itaunganishwa wakati wa kuingiza."
+      },
+      "cards": {
+        "downloadHistory": {
+          "title": "Historia ya Upakuaji",
+          "subtitle": "Historia ya IndexedDB"
+        },
+        "scraperCache": {
+          "title": "Akiba ya Kichakuzi",
+          "subtitle": "Akiba ya ndani",
+          "withStats": "{count} vitu • {hitRate} kiwango cha kugonga"
+        },
+        "localStorage": {
+          "title": "Hifadhi ya Ndugu",
+          "subtitle": "Mandhari na mapendeleo ya programu"
+        },
+        "seasonal": {
+          "title": "Athari za Msimu",
+          "subtitle": "Mandhari na chembe"
+        },
+        "cookies": {
+          "title": "Vidakuzi",
+          "subtitle": "Uthibitishaji wa mfumo"
+        },
+        "serviceWorker": {
+          "title": "Mfanyakazi wa Huduma",
+          "subtitle": "Akiba ya nje ya mtandao + historia/akiba"
+        }
+      },
+      "resetAll": {
+        "title": "Weka Upya Data Zote",
+        "subtitle": "Rejesha kiwandani na ufute kila kitu",
+        "button": "Weka Upya Zote"
+      },
+      "storageKeyLabels": {
+        "indexedDb": "IndexedDB",
+        "cacheStorage": "Hifadhi ya Akiba",
+        "localStorage": "Hifadhi ya Ndugu"
+      },
+      "storageAliases": {
+        "appSettings": "Mipangilio ya programu",
+        "downloadQueue": "Foleni ya upakuaji",
+        "experimentalAudio": "Sauti ya majaribio",
+        "discordWebhook": "Nduio ya Discord (kwa siri)",
+        "scraperCacheStats": "Takwimu za akiba ya kichakuzi",
+        "platformCookies": "Vidakuzi vya mfumo (kwa siri)"
+      },
+      "clear": "Futa"
+    },
+    "integrations": {
+      "title": "Ujumuishaji",
+      "description": "Unganisha mtiririko wa nduio na muhtasari wa matokeo ya arifa mahali pamoja.",
+      "comingSoon": "Ujumuishaji mwingine unakuja hivi karibuni..."
+    }
+  },
+
+  "settingsDiscord": {
+    "header": {
+      "title": "Nduio ya Discord",
+      "description": "Arifa za video hutumia jumbe 2: kiungo kwanza, kisha upachikaji wa metadata. URL yako ya nduio inahifadhiwa kwenye kifaa chako.",
+      "toggleTipsAria": "Onyesha/ficha vidokezo vya nduio"
+    },
+    "tips": {
+      "content": "Unda nduio ya chaneli kwenye Ujumuishaji wa Discord, kisha bandika URL yake hapa."
+    },
+    "notifications": {
+      "title": "Washa Arifa za Discord",
+      "description": "Kibonye kikuu cha arifa za nduio"
+    },
+    "fields": {
+      "webhookUrl": {
+        "label": "URL ya Nduio",
+        "placeholder": "https://discord.com/api/webhooks/..."
+      },
+      "mention": {
+        "label": "Taja (si lazima)",
+        "placeholder": "@everyone au <@&role_id>"
+      },
+      "embedColor": {
+        "label": "Rangi ya Upachikaji"
+      },
+      "footer": {
+        "label": "Kijachini",
+        "placeholder": "kupitia Bmbtech"
+      }
+    },
+    "autoSend": {
+      "title": "Tuma kiatomati wakati wa upakuaji",
+      "description": "Inafanya kazi tu wakati arifa zimewashwa na URL ya nduio ni halali",
+      "canonicalNote": "Hali ya kawaida inabakia: jumbe 2 kwa video (kiungo kwanza, kisha upachikaji wa metadata)."
+    },
+    "preview": {
+      "title": "Muhtasari wa upachikaji wa Discord",
+      "live": "Moja kwa moja",
+      "sampleTitle": "Kipakua cha Facebook",
+      "sampleDescription": "Fungua Chanzo cha Media",
+      "fields": {
+        "platform": "Mfumo",
+        "type": "Aina",
+        "author": "Mwandishi"
+      },
+      "values": {
+        "platform": "Facebook",
+        "type": "video",
+        "author": "Nikki."
+      },
+      "thumbnailAlt": "Muhtasari wa kijipicha",
+      "todayAt": "Leo saa {time}",
+      "note": "Kumbuka: Muhtasari hubadilika kutoka kwenye sehemu za Rangi ya Upachikaji na Kijachini. Ujumbe asili pia una data ya mfumo/kichwa/mwandishi inayobadilika."
+    },
+    "defaults": {
+      "footer": "kupitia Bmbtech"
+    },
+    "test": {
+      "embedTitle": "Jaribu Arifa ya Upakuaji",
+      "embedDescription": "Ujumbe wa jaribu wa nduio kutoka Bmbtech.",
+      "content": "Jaribu arifa ya upakuaji kutoka Bmbtech.",
+      "sent": "Jaribu la nduio limetumwa.",
+      "testing": "Inajaribu...",
+      "button": "Jaribu Nduio"
+    },
+    "errors": {
+      "webhookStatus": "Hitilafu ya nduio {status}",
+      "webhookHtml": "Hitilafu ya nduio {status}. Ncha ya mwisho inarejesha HTML, si jibu la API ya Discord.",
+      "enableFirst": "Washa arifa kwanza.",
+      "setWebhookFirst": "Weka URL ya nduio kwanza.",
+      "testFailed": "Imeshindwa kutuma ujumbe wa jaribu."
+    }
+  },
+
+  "settingsSeasonal": {
+    "seasonOptions": {
+      "auto": "Kiotomatiki",
+      "random": "Bahatisha",
+      "winter": "Majira ya baridi",
+      "spring": "Majira ya chipuko",
+      "autumn": "Majira ya vuli",
+      "off": "Zima"
+    },
+    "actions": {
+      "ok": "Sawa",
+      "change": "Badilisha",
+      "upload": "Pakia"
+    },
+    "alerts": {
+      "highOpacity": {
+        "title": "Onyo la Mwonekano Mkubwa",
+        "text": "Mwonekano mkubwa unaweza kuvuruga usomaji. Umeonywa!"
+      },
+      "backgroundSet": {
+        "title": "Mandhari Imewekwa!",
+        "text": "Mandhari maalum imetumika kwa mafanikio!"
+      },
+      "uploadFailed": {
+        "title": "Upakiaji Umefeli",
+        "text": "Faili haikuweza kuchakatwa"
+      }
+    },
+    "toggleExperimental": {
+      "title": "Washa Vipengele vya Majaribio",
+      "description": "Fikia vipengele vya beta na muhtasari wa mapema"
+    },
+    "warning": {
+      "title": "Onyo la Vipengele vya Majaribio",
+      "description": "Vipengele hivi bado ni beta na vinaweza kusababisha tabia zisizotarajiwa. Ikiwa mandhari inakwisha, jaribu kuonyesha upya ukurasa."
+    },
+    "seasonalEffects": {
+      "title": "Athari za Msimu",
+      "description": "Uhuishaji wa chembe (theluji, maua ya cherry, majani)",
+      "particleIntensity": "Nguvu ya Chembe",
+      "particleIntensityHint": "Ongeza au punguza idadi ya chembe zinazoelea (hadi 200%)",
+      "fallSpeed": "Kasi ya Kuanguka",
+      "fallSpeedHint": "Chini = polepole, Juu = kasi zaidi",
+      "particleOpacity": "Mwonekano wa Chembe",
+      "particleOpacityHint": "Fanya chembe zionekane hafifu au zaidi"
+    },
+    "customBackground": {
+      "title": "Mandhari Maalum",
+      "video": "Video",
+      "image": "Picha",
+      "emptyState": "Picha/Video/GIF (hadi 800MB)"
+    },
+    "backgroundControls": {
+      "visibility": "Mwonekano",
+      "visibilityHint": "Bora kwenye mandhari nyeusi na uwazi wa 8%",
+      "blur": "Uzito wa Mandhari",
+      "zoom": "Kukuza Mandhari",
+      "zoomHint": "65% - 150%",
+      "moveVertical": "Sogeza Mandhari (Juu/Chini)",
+      "moveVerticalHint": "0% = Juu, 100% = Chini",
+      "sound": "Sauti ya Mandhari",
+      "volume": "Kiwango cha Sauti",
+      "enabled": "Mandhari Imewashwa",
+      "enabledHint": "Zima bila kufuta"
+    }
+  },
+
+  "privacyPage": {
+    "titlePrefix": "Sera ya",
+    "titleHighlight": "Faragha",
+    "subtitle": "Tunaiweka Bmbtech kuwa rahisi: hakuna akaunti, data ndogo inayohifadhiwa, na utunzaji wa maombi ya uchimbaji kwa uwazi.",
+    "lastUpdated": "Iliyosasishwa mwisho",
+    "atAGlance": {
+      "title": "Faragha kwa Mtazamo wa Kwanza",
+      "point1": "Hakuna usajili unaohitajika kutumia Bmbtech.",
+      "point2": "Hatuhifadhi faili za media zilizopakuliwa kwa kudumu.",
+      "point3": "Wewe unadhibiti matumizi ya vidakuzi vya hiari kwenye Mipangilio kwa mifumo inayohitaji uthibitishaji."
+    },
+    "dataWeProcess": {
+      "title": "Data Tunayochakata",
+      "urls": "URL zilizotumwa na metadata ya uchimbaji inayohitajika kurejesha muundo wa media na taarifa za muhtasari.",
+      "cookies": "Vidakuzi vya hiari unavyoweka kwenye Mipangilio kwa maudhui ya kibinafsi/yahitaji uthibitishaji, yanachakatwa kwa sheria tofauti za seva.",
+      "operational": "Takwimu za uendeshaji kwa kutegemewa na ulinzi dhidi ya matumizi mabaya (kikomo cha kiwango, kujaribu tena, na afya ya huduma)."
+    },
+    "handlingData": {
+      "title": "Jinsi Tunavyoshughulikia Data",
+      "point1": "Mandhari, mapendeleo, na historia ya ndani huhifadhiwa kwenye kifaa chako kwa kutumia hifadhi ya kivinjari.",
+      "point2": "Upakuaji huchukuliwa kutoka chanzo/CDN cha mtoa huduma na kuwa wakala kwa utangamano wa utoaji tu.",
+      "point3": "Njia za uthibitishaji hutumika kwa mpangilio: Mgeni → Seva → Ulilotolewa na Mtumiaji. Vidakuzi kutoka Mipangilio ni vya kibinafsi kwa kila mtumiaji, havishirikishwi kwa watumiaji wengine, na huchakatwa kupitia njia tofauti ya kibinafsi katika mkusanyiko wa seva kwa muda.",
+      "point4": "Hatunauzi data za kibinafsi. Tumia zana hii kwa maudhui tu ambayo una haki ya kuyafikia."
+    },
+    "retention": {
+      "title": "Uhifadhi na Ufutaji",
+      "point1": "Historia ya ndani na mapendeleo hubakia kwenye kivinjari chako hadi utakapoyafuta kutoka Mipangilio au hifadhi ya kivinjari.",
+      "point2": "Rekodi za uchimbaji za muda na rekodi za uendeshaji huzungushwa na kuhifadhiwa kwa kutegemewa na kuzuia matumizi mabaya tu.",
+      "point3": "Ukipa vidakuzi vya uthibitishaji, unaweza kuvifuta wakati wowote kwenye Mipangilio; vidakuzi si lazima kwa maudhui ya umma."
+    },
+    "security": {
+      "title": "Usalama na Wajibu",
+      "point1": "Tunatumia uthibitishaji wa ombi, kikomo cha kiwango, na udhibiti wa kujaribu tena kuweka huduma thabiti na salama.",
+      "point2": "Bmbtech imekusudiwa kwa matumizi ya kibinafsi na yaliyoruhusiwa tu. Wewe una jukumu la kutii masharti ya mfumo na sheria za hakimiliki.",
+      "point3": "Kwa ripoti za usalama, fungua ufunuzi wa kibinafsi kupitia mhifadhi wa hazina ya mradi."
+    },
+    "faq": {
+      "title": "Maswali Yanayoulizwa Sana kuhusu Faragha",
+      "q1": "Je, ninahitaji akaunti?",
+      "a1": "Hapana. Mtiririko mkuu wa upakuaji na uchimbaji hufanya kazi bila usajili.",
+      "q2": "Je, faili za matokeo ya upakuaji huhifadhiwa?",
+      "a2": "Hakuna upangishaji wa kudumu. Media huchukuliwa kutoka chanzo/CDN na kutumwa kwa ombi lako.",
+      "q3": "Vipi kuhusu vidakuzi?",
+      "a3": "Vidakuzi ni vya hiari na ni kwa ombi lako mwenyewe. Vidakuzi havishirikishwi kwa watumiaji wengine na huhifadhiwa kwa muda tu kupitia njia ya kibinafsi ya uchakataji.",
+      "q4": "Ninawezaje kuomba mabadiliko?",
+      "a4": "Fungua suala kwenye hazina na ujumuisha ukurasa + sehemu ya sera unayotaka kusasishwa."
+    },
+    "quickLinks": {
+      "title": "Viungo vya Haraka",
+      "documentation": {
+        "title": "Nyaraka",
+        "description": "Jinsi uchimbaji na upakuaji unavyofanya kazi"
+      },
+      "changelog": {
+        "title": "Changelog",
+        "description": "Sasisho za bidhaa na sera"
+      },
+      "about": {
+        "title": "Kuhusu Bmbtech",
+        "description": "Muhtasari wa mradi na mfumo ikolojia"
+      }
+    },
+    "footer": {
+      "prefix": "Maswali au wasiwasi kuhusu faragha? Fungua suala kwenye"
+    }
+  },
+
+  "creditsPage": {
+    "titleHighlight": "Shukrani",
+    "titleSuffix": "na Asante",
+    "subtitleLine1": "Bmbtech imejengwa juu ya zana za chanzo huria na teknolojia zinazotunzwa na jamii.",
+    "subtitleLine2": "Ukurasa huu unatoa sifa kwa mrundikano na wachangiaji nyuma ya mradi.",
+    "builtBy": {
+      "title": "Imejengwa na risunCode",
+      "description": "Imeundwa na kudhibitiwa kama jukwaa la kipakua chanzo huria lenye umiliki wa wakati wa utekelezaji wa mbele na nyuma.",
+      "repositoryLabel": "Hazina"
+    },
+    "sections": {
+      "frontend": "Mrundikano wa Mbele",
+      "backend": "Mrundikano wa Nyuma",
+      "tools": "Zana na Mtiririko wa Kazi",
+      "license": "Vidokezo vya Leseni na Sifa"
+    },
+    "stacks": {
+      "frontend": {
+        "next": "Next.js",
+        "react": "React",
+        "typescript": "TypeScript",
+        "tailwind": "Tailwind CSS",
+        "framer": "Framer Motion",
+        "lucide": "Lucide"
+      },
+      "backend": {
+        "go": "Go",
+        "chi": "chi router",
+        "ffmpeg": "FFmpeg",
+        "ytdlp": "yt-dlp",
+        "extractors": "Vichimbaji maalum",
+        "proxy": "Wakala wa HTTP"
+      },
+      "tools": {
+        "vitest": "Vitest",
+        "eslint": "ESLint",
+        "gotest": "Go test",
+        "github": "GitHub",
+        "vscode": "VS Code"
+      }
+    },
+    "licenseNotes": {
+      "point1": "Bmbtech inasambazwa chini ya GPL-3 na inajumuisha ujumuishaji na zana na huduma za wahusika wengine.",
+      "point2": "Majina yote ya bidhaa, nembo, na chapa za biashara za mifumo ni mali ya wamiliki wao husika.",
+      "point3": "Matumizi lazima yatii sheria za eneo, sheria za hakimiliki, na masharti ya huduma ya mfumo."
+    },
+    "quickLinks": {
+      "title": "Viungo vya Haraka",
+      "about": {
+        "title": "Kuhusu",
+        "description": "Historia ya mradi na mfumo ikolojia"
+      },
+      "documentation": {
+        "title": "Nyaraka",
+        "description": "Mwongozo, mtiririko wa API, na utatuzi wa matatizo"
+      },
+      "privacy": {
+        "title": "Faragha",
+        "description": "Sera ya njia ya vidakuzi na utunzaji wa data"
+      }
+    }
+  },
+
+  "aboutPage": {
+    "sections": {
+      "features": "Vipengele",
+      "quickLinks": "Viungo vya Haraka",
+      "moreProjects": "Miradi Mingine"
+    },
+    "features": {
+      "video": { "title": "Video", "description": "Ubora hadi 4K" },
+      "audio": { "title": "Sauti", "description": "MP3, M4A, FLAC" },
+      "stories": { "title": "Stori na Reels", "description": "Mifumo yote" },
+      "noWatermark": { "title": "Bila Alama ya Maji", "description": "Upakuaji safi" },
+      "fastServers": { "title": "Seva Haraka", "description": "CDN iliyoboreshwa" },
+      "api": { "title": "REST API", "description": "Kwa wasanidi programu" }
+    },
+    "quickLinks": {
+      "documentation": { "title": "Nyaraka", "description": "Mwongozo, marejeo ya API, na mtiririko wa ujumuishaji" },
+      "changelog": { "title": "Changelog", "description": "Fuatilia sasisho na uboreshaji" },
+      "privacy": { "title": "Faragha", "description": "Soma sera ya data na usalama" },
+      "credits": { "title": "Shukrani", "description": "Asante kwa chanzo huria na mrundikano" }
+    },
+    "projects": {
+      "Bmbtech": {
+        "title": "Bmbtech",
+        "description": "Zana ya bure, haraka, na rahisi kupakua video kutoka mitandao ya kijamii. Hakuna usajili, hakuna kikomo, hakuna ugumu."
+      },
+      "surfManager": {
+        "title": "SurfManager",
+        "description": "Weka upya data ya IDE, tengeneza chelezo na urejeshe, dhibiti akaunti nyingi kwa urahisi. Inafanya kazi kwa programu za VS-Code/kitovu."
+      },
+      "seswi": {
+        "title": "SesWi-Session-Manager",
+        "description": "Kiendelezi cha Chrome kudhibiti vidakuzi na vipindi kwa usalama, inasaidia uhamishaji wa Netscape, JSON mbichi, na uhifadhi wa siri."
+      }
+    },
+    "feedback": {
+      "title": "Maoni",
+      "fields": {
+        "name": "Jina",
+        "datetime": "Muda",
+        "comment": "Maoni"
+      },
+      "placeholders": {
+        "name": "Jina Lako",
+        "comment": "Maandishi + emoji pekee"
+      },
+      "hint": "Andika maoni yako hapa. Tunasoma kila noti na emoji.",
+      "submit": "Tuma Maoni",
+      "sending": "Inatuma...",
+      "success": "Asante! Maoni yako yametumwa.",
+      "errors": {
+        "nameTooShort": "Jina lazima iwe angalau herufi 2.",
+        "commentTooShort": "Maoni lazima yawe angalau herufi 3.",
+        "sendFailed": "Imeshindwa kutuma maoni.",
+        "network": "Hitilafu ya mtandao ilitokea wakati wa kutuma maoni."
+      }
+    },
+    "footer": {
+      "prefix": "Bmbtech na",
+      "middle": "- Ina leseni ya GPL-3 - ©"
+    }
+  },
+
+  "historyList": {
+    "title": "Historia",
+    "unknownPlatform": "Haijulikani",
+    "unknownQuality": "Haijulikani",
+    "searchPlaceholder": "Tafuta...",
+    "emptyTitle": "Hakuna historia bado",
+    "emptyDescription": "Historia ya media iliyochimbwa itaonekana hapa",
+    "perPage": "Kwa ukurasa",
+    "pageOf": "Ukurasa {page} kati ya {total}",
+    "prev": "Iliyotangulia",
+    "next": "Inayofuata",
+    "viewAllHistory": "Angalia zote ({count}) historia",
+    "filters": {
+      "all": "Zote",
+      "video": "Video",
+      "image": "Picha",
+      "audio": "Sauti"
+    },
+    "actions": {
+      "refetch": "Chukua tena",
+      "copyUrl": "Nakili URL",
+      "open": "Fungua",
+      "invalidUrl": "URL si sahihi"
+    },
+    "alerts": {
+      "deleteItemTitle": "Futa kitu?",
+      "clearAllTitle": "Futa historia yote?",
+      "clearAllText": "Kitendo hiki hakiwezi kutenduliwa."
+    }
+  },
+
+  "publicStats": {
+    "freshness": {
+      "waiting": "Inasubiri data",
+      "waitingRetry": "Inasubiri data (inajaribu tena)",
+      "updatedJustNow": "Imechapishwa hivi punde",
+      "updatedAgo": "Ilichapishwa {seconds} d iliyopita",
+      "updatedAgoWithFailed": "{base} (uonyesho upya wa mwisho umefeli)"
+    },
+    "pollingEvery": "Inahoji kila {seconds}d",
+    "cards": {
+      "visitors": {
+        "label": "Wageni",
+        "today": "Leo: {value}",
+        "total": "Jumla: {value}"
+      },
+      "extractions": {
+        "label": "Uchimbaji"
+      },
+      "downloads": {
+        "label": "Upakuaji"
+      }
+    }
+  },
+
+  "sidebar": {
+    "tagline": "Kipakua Mitandao ya Kijamii",
+    "theme": "Mandhari",
+    "themes": {
+      "auto": "Kiotomatiki",
+      "dark": "Nyeusi",
+      "light": "Nyepesi",
+      "solarized": "Jua"
+    },
+    "fastExperimental": "Majaribio ya Haraka",
+    "toggles": {
+      "seasonalEffects": "Athari za Msimu",
+      "customBackground": "Mandhari Maalum",
+      "backgroundSound": "Sauti ya Mandhari"
+    },
+    "on": "IMEWASHWA",
+    "off": "IMEZIMWA",
+    "profileMenuAria": "Menyu ya wasifu",
+    "guest": "Mgeni",
+    "notLoggedIn": "Hujaingia",
+    "settings": "Mipangilio",
+    "account": "Akaunti",
+    "aboutBmbtech": "Kuhusu Bmbtech",
+    "ytDlp": {
+      "title": "+1000 mifumo kupitia yt-dlp"
+    }
+  },
+
+  "rateLimit": {
+    "title": "Kikomo cha Maombi",
+    "reachedTitle": "Kikomo cha Maombi Kimefikiwa",
+    "limitMessage": "Kikomo: {limit} maombi kwa {window}",
+    "tooManyRequests": "Maombi mengi sana. Subiri kipima muda kiweke upya.",
+    "currentLimit": "Kikomo cha sasa:",
+    "guestLimit": "Kikomo cha mgeni",
+    "guestLimitValue": "{limit} req/{window}",
+    "configuredByServer": "imesanidiwa na seva",
+    "retryNow": "Jaribu tena sasa",
+    "wait": "Subiri",
+    "countdown": {
+      "retryStatus": "Hali ya kujaribu tena",
+      "readyToRetry": "Tayari kujaribu tena sasa",
+      "resetsIn": "Inaweka upya baada ya"
+    }
+  },
+
+  "accessibility": {
+    "skipToMainContent": "Ruka hadi kwenye maudhui kuu",
+    "loading": "Inapakia..."
+  },
+
+  "screenSizeGuard": {
+    "title": "Mabadiliko ya saizi ya skrini yamegunduliwa",
+    "message": "Sehemu yako ya kutazama imepungua. Vipengele vingine vinaweza kuwa vigumu kuonekana. Jaribu kugeuza kifaa au kupanua dirisha.",
+    "confirm": "Sawa"
+  },
+
+  "about": {
+    "title": "Kuhusu",
+    "subtitle": "Kipakua mitandao ya kijamii bila kikomo, bila ugumu.",
+    "story": {
+      "title": "Hadithi yake",
+      "p1": "Zamani, nilikuwa nikitumia bot ya Telegram kupakua video kutoka mitandao ya kijamii. Ilikuwa rahisi, tuma kiungo, subiri kidogo, imekamilika.",
+      "p2": "Lakini baada ya muda nilianza kuchoka... 😤",
+      "p3": "Mwishowe nikawaza: \"Kwa nini nisijenge mwenyewe?\"",
+      "p4": "Na Bmbtech ikazaliwa — kipakua chenye kazi sawa, lakini bila kikomo, bila foleni, na kinachoheshimu faragha. 🚀"
+    },
+    "painPoints": {
+      "title": "Kwanza niliijenga hii",
+      "limit": "\"Kikomo cha kila siku kimefikiwa\"",
+      "queue": "\"Tafadhali subiri kwenye foleni\"",
+      "busy": "\"Bot ina shughuli nyingi\"",
+      "premium": "\"Jisajili kwa premium\""
+    },
+    "features": {
+      "title": "Vipengele",
+      "noLimits": "Hakuna kikomo cha kila siku",
+      "noWatermark": "Bila alama ya maji",
+      "autoDetect": "Utambuzi wa mfumo kiotomatiki",
+      "multiQuality": "Ubora mbalimbali",
+      "noLogin": "Hakuna haja ya kuingia"
+    },
+    "platforms": {
+      "title": "Mifumo"
+    },
+    "privacy": {
+      "title": "Faragha",
+      "local": "Data huhifadhiwa tu ndani",
+      "noTracking": "Hakuna ufuatiliaji, hakuna matangazo",
+      "noLogs": "URL hazirekodiwi kamwe",
+      "openSource": "Chanzo huria"
+    },
+    "tech": {
+      "title": "Mrundikano wa Teknolojia"
+    },
+    "startDownloading": "Anza Kupakua"
+  },
+
+  "maintenance": {
+    "title": "Iko Matengenezo",
+    "defaultMessage": "🔧 Bmbtech iko kwenye matengenezo. Tafadhali jaribu tena baadaye.",
+    "checkStatus": "Angalia Hali",
+    "adminPanel": "Paneli ya Msimamizi",
+    "footer": "Tunafanya kazi kwa bidii kuboresha matumizi yako. Asante kwa uvumilivu wako!"
+  },
+
+  "install": {
+    "title": "Sakinisha Bmbtech",
+    "subtitle": "Pata uzoefu kamili wa programu kwenye kifaa chako",
+    "alreadyInstalled": "Imeshasakinishwa!",
+    "readyToUse": "Bmbtech iko tayari kutumika kwenye kifaa chako",
+    "openApp": "Fungua Programu",
+    "installNow": "Sakinisha Sasa",
+    "howToInstall": "Jinsi ya Kusakinisha",
+    "installing": "Inasakinisha...",
+    "platform": {
+      "ios": "Kifaa cha iOS",
+      "android": "Kifaa cha Android",
+      "desktop": "Kivinjari cha Kompyuta"
+    },
+    "features": {
+      "fast": "Haraka Sana",
+      "fastDesc": "Utendaji wa programu asili",
+      "notifications": "Arifa za Kusukuma",
+      "notificationsDesc": "Pata arifa za papo hapo",
+      "offline": "Inafanya Kazi Nje ya Mtandao",
+      "offlineDesc": "Pakua wakati wowote"
+    },
+    "instructions": {
+      "ios": {
+        "title": "Sakinisha kwenye iOS",
+        "step1": "Bonyeza kitufe cha Shiriki kwenye Safari",
+        "step2": "Tembeza chini na ubonyeze \"Add to Home Screen\"",
+        "step3": "Bonyeza \"Add\" kuthibitisha",
+        "note": "Hakikisha unatumia kivinjari cha Safari"
+      },
+      "android": {
+        "title": "Sakinisha kwenye Android",
+        "step1": "Bonyeza kitufe cha menyu (⋮) kwenye Chrome",
+        "step2": "Bonyeza \"Add to Home screen\" au \"Install app\"",
+        "step3": "Bonyeza \"Install\" kuthibitisha",
+        "note": "Inafanya kazi vyema kwa Chrome au Samsung Internet"
+      },
+      "desktop": {
+        "title": "Sakinisha kwenye Kompyuta",
+        "step1": "Tafuta ikoni ya kusakinisha (⊕) kwenye upau wa anwani",
+        "step2": "Bonyeza \"Install\" kwenye kidirisha inayojitokeza",
+        "step3": "Programu itafunguka kwenye dirisha lake yenyewe",
+        "note": "Inasaidiwa kwenye Chrome, Edge, na vivinjari vingine vya Chromium"
+      }
+    },
+    "gotIt": "Nimeelewa!",
+    "backToApp": "← Rudi kwenye Bmbtech"
+  },
+
+  "notFound": {
+    "title": "Ukurasa Haupatikani",
+    "message": "Lo! Ukurasa unatafuta haupo au umehamishwa.",
+    "goHome": "Nenda Mwanzo",
+    "goBack": "Rudi Nyuma",
+    "suggestion": "Jaribu kupakua video kutoka ukurasa wa mwanzo"
+  },
+
+  "share": {
+    "title": "Maudhui Yameshirikishwa",
+    "processing": "Inachakata URL iliyoshirikishwa...",
+    "noUrl": "Hakuna URL iliyogunduliwa kutoka kwenye shirikisho",
+    "backToHome": "← Rudi Mwanzo",
+    "failed": "Imeshindwa",
+    "error": "Hitilafu imetokea",
+    "errors": {
+      "extractionTitle": "Hitilafu ya Uchimbaji",
+      "cookieTip": "Weka vidakuzi kwenye Mipangilio kufikia maudhui yanayolindwa.",
+      "codeLabel": "Msimbo",
+      "tipLabel": "Kidokezo:",
+      "openCookieSettings": "Fungua Mipangilio ya Vidakuzi"
+    }
+  },
+
+  "errors": {
+    "invalidUrl": "URL si sahihi",
+    "enterUrl": "Weka URL",
+    "invalidPlatformUrl": "URL ya {platform} si sahihi",
+    "fetchFailed": "Imeshindwa kuchukua data",
+    "cookieRequired": "Kidakuzi kinahitajika",
+    "cookieExpired": "Kidakuzi kimeisha muda wake",
+    "maintenance": "Iko matengenezo",
+    "rateLimit": "Maombi mengi sana",
+    "noValidUrl": "Hakuna URL halali kwenye ubao wa kunakili",
+    "pasteHint": "Bonyeza hapa na ubonyeze Ctrl+V (au shikilia kwa muda → Bandika)",
+    "checkpointRequired": {
+      "title": "🚫 Kidakuzi Kimezuiwa",
+      "message": "Facebook imegundua shughuli isiyo ya kawaida kwenye kidakuzi cha msimamizi.",
+      "detail": "Akaunti inaweza kuwa imezuiwa kwa muda au inahitaji uthibitishaji.",
+      "hint": "Jaribu kuongeza kidakuzi chako mwenyewe kwenye Mipangilio, au subiri msimamizi asasishe."
+    },
+    "maintenanceError": {
+      "title": "🔧 Iko Matengenezo",
+      "message": "Tunafanya ukarabati. Angalia tena baadaye!"
+    },
+    "serviceDisabled": {
+      "title": "⏸️ Huduma Imesitishwa"
+    },
+    "extractionFailed": {
+      "title": "Uchimbaji Umefeli",
+      "withCookie": "⚠️ Kidakuzi tayari kimewekwa lakini uchimbaji bado umefeli.",
+      "hint": "Jaribu: Onyesha upya kidakuzi, tumia kichimbaji cha HTML kwenye Kina, au huenda chapisho lika na kikomo."
+    },
+    "fetchFailedPrivate": {
+      "title": "Imeshindwa Kuchukua",
+      "hint": "Maudhui haya yanaweza kuwa ya kibinafsi. Ongeza kidakuzi chako kwenye Mipangilio kufikia."
+    },
+    "weiboCookie": {
+      "title": "Kidakuzi cha Weibo Kinahitajika",
+      "message": "Weibo kinahitaji kidakuzi kufikia video.",
+      "expired": "⚠️ Kidakuzi cha awali tayari kimeisha muda au hakijawekwa.",
+      "hint": "Fungua Mipangilio → Weibo na bandika kidakuzi kipya cha mgeni.",
+      "goToSettings": "⚙️ Nenda kwenye Mipangilio"
+    },
+    "botDetected": {
+      "title": "🤖 Roboti Imegunduliwa",
+      "message": "Ufikiaji wa moja kwa moja umezuiwa. Tafadhali tumia ncha ya mwisho /api/v1/ ikiwa wewe ni msanidi programu."
+    }
+  },
+
+  "platforms": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter/X",
+    "tiktok": "TikTok",
+    "pixiv": "Pixiv",
+    "weibo": "Weibo",
+    "youtube": "YouTube",
+    "status": {
+      "active": "Inafanya kazi",
+      "maintenance": "Matengenezo",
+      "offline": "Nje ya mtandao"
+    },
+    "cookieDesc": {
+      "facebook": "Stori na vikundi",
+      "instagram": "Machapisho ya kibinafsi",
+      "twitter": "Maudhui ya watu wazima",
+      "weibo": "Lazima"
+    }
+  },
+
+  "footer": {
+    "copyright": "© 2025 risunCode",
+    "personalUse": "Tumia kwa hekima ✨"
+  },
+
+  "advanced": {
+    "title": "Zana za Kina",
+    "subtitle": "Vipengele kwa watumiaji wa ngazi ya juu - vichimbaji na zana",
+    "warning": {
+      "title": "Majaribio:",
+      "message": "Zana hii ni kwa watumiaji wa ngazi ya juu. Tumia kwa hekima."
+    },
+    "tabs": {
+      "fbHtml": "Kichimbaji cha HTML cha FB"
+    },
+    "fbHtml": {
+      "title": "Kichimbaji cha HTML cha Facebook",
+      "description": "Chimba video kutoka chapisho la kibinafsi kupitia chanzo cha ukurasa",
+      "step1": "URL ya Facebook",
+      "step2": "URL ya Tazama Chanzo",
+      "step3": "Bandika Chanzo cha HTML",
+      "paste": "Bandika",
+      "clear": "Futa",
+      "copy": "Nakili",
+      "copied": "Imenakiliwa!",
+      "copyHint": "Bandika kwenye kichupo kipya",
+      "sourceHint": "Fungua kwenye kichupo kipya → Ctrl+A → Ctrl+C",
+      "extracting": "Inachimba URL za media...",
+      "found": "Zimepatikana {count} media",
+      "extractNew": "Chimba Mpya",
+      "extractMedia": "Chimba Media",
+      "pasteFromClipboard": "Bandika kutoka Ubao wa Kunakili",
+      "pasteHint": "Kidokezo: Ikiwa kitufe cha kubandika hakifanyi kazi, bandika mwenyewe (Ctrl+V) kwenye kisanduku hapo juu",
+      "noMediaFound": "Hakuna media iliyopatikana",
+      "parseError": "Hitilafu ya kuchanganua",
+      "htmlPlaceholder": "Bandika msimbo mzima wa chanzo cha HTML hapa (Ctrl+V)...",
+      "pasteFailed": "Imeshindwa kubandika"
+    }
+  }
+}
