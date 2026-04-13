@@ -375,7 +375,7 @@ export async function downloadHistoryExport(filename?: string): Promise<void> {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = filename || `downaria-history-${new Date().toISOString().split('T')[0]}.json`;
+    a.download = filename || `Bmbtech-history-${new Date().toISOString().split('T')[0]}.json`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -585,7 +585,7 @@ export async function downloadFullBackupAsZip(filename?: string): Promise<void> 
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = filename || `downaria-backup-${new Date().toISOString().split('T')[0]}.zip`;
+    a.download = filename || `Bmbtech-backup-${new Date().toISOString().split('T')[0]}.zip`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
